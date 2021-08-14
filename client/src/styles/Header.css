@@ -1,0 +1,58 @@
+.Header{
+    background-color: #10d48e;
+    box-shadow: 0 0 10px rgba(0,0,0);
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin:0;
+    
+}
+.HeaderItem{
+    width: 20%;
+    margin:0;
+}
+.Image{
+    width: 80px;
+    margin:0;
+}
+.HeaderIcons{
+    height: 100%;
+}
+.HeaderButton{
+    outline: none;
+    border: none;
+    background-color: #10d48e;
+    margin:0;
+    height:100%;
+    width: 100%;
+    padding: 20px;
+}
+.HeaderButton:hover{
+    background-color: rgb(13, 173, 114)
+}
+@media screen and (max-width: 550px) {
+    .Header{
+        background-color: #10d48e;
+        box-shadow: 0 0 10px rgba(0,0,0);
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .HeaderIcons{
+        width: 100%;
+    }
+    
+    .HeaderButton{
+        outline: none;
+        border: none;
+        background-color: #10d48e;
+        margin:0;
+        height:100%;
+        width: 100%;
+        padding: 20px;
+    }
+}

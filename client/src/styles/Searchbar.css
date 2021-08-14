@@ -1,0 +1,29 @@
+.SearchbarDIV{
+    display: block;
+    float: right;
+}
+.Input{
+    font-size:18px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid ;
+    margin-top:10px;
+    font-size: 'Visby Heavy';
+    background-color:rgba(255,255,255,0.1)
+}
+.Button{
+    padding: 12px;
+    margin-right: 10px; 
+    outline: none;
+    border: none;
+    background-color: white;
+    border-bottom: 2px solid ;
+}
+.Button:hover{
+    background-color:rgba(230,230,230)
+}
+@media screen and (max-width: 550px) {
+    .SearchbarDIV{}
+
+}  

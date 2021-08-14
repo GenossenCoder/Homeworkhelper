@@ -1,0 +1,2 @@
+background_color    #10d48e/rgba(16,212,142,255)
+Icon color          #132a3a/rgba(19,42,58,255)
