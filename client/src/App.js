@@ -1,11 +1,16 @@
 import React from 'react';
-import Searchbar from './components/Searchbar'
 import Header from './components/Header.js';
+import Post from './components/Post.js';
+import './styles/Center.css'
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Searchbar />
+      <div className="align-posts-center">
+        <Post/>
+        <Post/>
+        <Post/>
+      </div>
     </div>
   );
 }
